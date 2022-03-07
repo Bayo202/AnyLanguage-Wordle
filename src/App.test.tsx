@@ -8,7 +8,7 @@ import chalk from 'chalk'
 
 test('renders Eré-Ọ̀rọ̀ Yorùbá \(ẹ̀yà bẹ́tà láìsí àmì ohùn\)', () => {
   render(<App />)
-  const linkElement = screen.getByText(/Eré-Ọ̀rọ̀ Yorùbá \(ẹ̀yà álúfà pẹ̀lú àmì ohùn\)/i)
+  const linkElement = screen.getByText(/Eré-Ọ̀rọ̀ Yorùbá \(ẹ̀yà bẹ́tà láìsí àmì ohùn\)/i)
   expect(linkElement).toBeInTheDocument()
 })
 

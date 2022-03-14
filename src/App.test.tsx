@@ -6,9 +6,9 @@ import { ORTHOGRAPHY_PATTERN } from './lib/tokenizer'
 import { CONFIG } from './constants/config'
 import chalk from 'chalk'
 
-test('renders Eré-Ọ̀rọ̀ Yorùbá \(ẹ̀yà bẹ́tà láìsí àmì ohùn\)', () => {
+test('renders WORDLE', () => {
   render(<App />)
-  const linkElement = screen.getByText(/Eré-Ọ̀rọ̀ Yorùbá \(ẹ̀yà bẹ́tà láìsí àmì ohùn\)/i)
+  const linkElement = screen.getByText(/WORDLE/i)
   expect(linkElement).toBeInTheDocument()
 })
 

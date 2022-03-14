@@ -10,6 +10,7 @@ export const WORDS = [
   'ẸLẸYA',
   'ORUKỌ',
   'TUUBA',
+  'ALAYE',
   'IFỌNU',
   'AJILẸ',
   'AKARA',
@@ -714,12 +715,16 @@ export const WORDS = [
   'SUFEE',
   'OUNJẸ',
   'IGBEGA',
+  'ẸLẸṢẸ',
   'EJOLA',
   'ITỌJU',
   'DẸKUN',
   'OLUWA',
   'OLORI',
   'AROYE',
+  'LAINI',
+  'GBADUN',
+  'ẸLẸSẸ',
 
 ]
 
